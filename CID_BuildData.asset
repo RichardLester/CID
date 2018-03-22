@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0520f36ab3c244589714ad48dd223d, type: 3}
+  m_Name: CID_BuildData
+  m_EditorClassIdentifier: 
+  m_Target: 0
+  m_TargetArchitecture: 0
+  m_IsDevelopmentBuild: 0
+  m_AutoConnectProfiler: 0
+  m_ScriptDebuging: 0
+  m_BuildAndRun: 0
+  m_BuildName: CID
+  m_Readme: {fileID: 114775014333952446}
+  m_Version: {fileID: 114344089845485464}
+  m_SceneList: {fileID: 114585439503114800}
+--- !u!114 &114344089845485464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07b0660d5405624e9058a56d7b5cf9c, type: 3}
+  m_Name: Version
+  m_EditorClassIdentifier: 
+  m_MajorVersion: 0
+  m_MinorVersion: 0
+  m_BuildVersion: 0
+  m_CurrentVersion: 
+--- !u!114 &114585439503114800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f97855c2cd45a4e88ac21c91f81e24, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  m_Scenes:
+  - m_Name: Main
+    m_GUID: 839fdac1f327cd0438026333e4cb93f7
+    m_Path: Assets/Projects/CID/Scenes/Main.unity
+    m_BuildOrder: 0
+    m_InBuild: 1
+    m_OpenState: -1
+  - m_Name: BaseMLDScene
+    m_GUID: 04810081d3336884d8dafec8002179f1
+    m_Path: Assets/Puredepth/BaseMLDScene.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Attachment Hands Example
+    m_GUID: e136a15ad33ad024d857c80ab2e20ec8
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Attachment Hands/Attachment
+      Hands Example.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Leap Hands Demo (Desktop)
+    m_GUID: e97e5c56326797c41be5a618cde4727a
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Leap Hands Demo (Desktop).unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Leap Hands Demo (VR - Infrared Viewer)
+    m_GUID: 480afe764b344a64688bf3a502bc612a
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Leap Hands Demo (VR
+      - Infrared Viewer).unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Leap Hands Demo (VR)
+    m_GUID: b8716ea72d45ecc4f9d690226f6664d1
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Leap Hands Demo (VR).unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Rigged Hands (VR - Infrared Viewer)
+    m_GUID: d88e9011efa39d24a9c768560b6c9bf0
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Rigged Hands/Rigged
+      Hands (VR - Infrared Viewer).unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Rigged Hands (VR)
+    m_GUID: af5071277bb494844a54bfccdc5e226f
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Core/Examples/Rigged Hands/Rigged
+      Hands (VR).unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Interaction Objects
+    m_GUID: 017ace9491c55584a93fb1551e5b4db9
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/1.
+      Interaction Objects/Interaction Objects.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Basic UI
+    m_GUID: cca654fcbf487ac40b2b8eaa581451c8
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/2.
+      Basic UI/Basic UI.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Interaction Callbacks
+    m_GUID: f0ba2ca82f863a543a0527614746315b
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/3.
+      Interaction Callbacks/Interaction Callbacks.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Hand UI
+    m_GUID: ae73948aa62db4f419627fe2d6061a32
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/4.
+      Hand UI/Hand UI.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Anchors
+    m_GUID: 7b4a5eb0c5d8ca242976d22c7980ab19
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/5.
+      Anchors/Anchors.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Dynamic UI
+    m_GUID: 329e30ace85910144998f2a756bf5c04
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6.
+      Dynamic UI/Dynamic UI.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Workstation Pose Test
+    m_GUID: ddd3c975b0be6c74e862beba4ac47a25
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/6.
+      Dynamic UI/Tests/Workstation Pose Test.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Moving Reference Frames
+    m_GUID: a990537f8048e2b4a8388e5346513702
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/7.
+      Moving Reference Frames/Moving Reference Frames.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: Swap Grasp
+    m_GUID: 2e180bcd96668c14f910390041f91cfc
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Examples/8.
+      Swap Grasp/Swap Grasp.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: AnchorScoreTest
+    m_GUID: 76618fee48e5c8f4a887c7df06f05be8
+    m_Path: Assets/Projects/CID/Plugins/LeapMotion/Modules/InteractionEngine/Scripts/UI/Anchors/Tests/AnchorScoreTest.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  - m_Name: TessellationSample
+    m_GUID: 31f6763de0920574092c8a69a66c717e
+    m_Path: Assets/Standard Assets/Effects/TessellationShaders/Scenes/TessellationSample.unity
+    m_BuildOrder: -1
+    m_InBuild: 0
+    m_OpenState: -1
+  m_ExclusionPaths:
+  - 3rdParty
+--- !u!114 &114775014333952446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35563b1a9c28414dbbda4767f063f89, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  m_AddHeaderFooter: 1
+  m_Text: 
